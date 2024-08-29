@@ -1,0 +1,24 @@
+.Gallery__nuevos--ingresos{
+    background: #ddd;
+    padding: 20px 8%;
+    column-count: 4;
+    gap: 10px;
+}
+
+.Gallery__nuevos--ingresos .product-box{
+    background: #fff;
+    padding:15px ;
+    margin-bottom:10px; 
+    break-inside: avoid;
+}
+
+.Gallery__nuevos--ingresos .product-box img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.Gallery__nuevos--ingresos .product-box .product-tittle{
+    font-size: 20px;
+    padding: 10px 0;
+}
+

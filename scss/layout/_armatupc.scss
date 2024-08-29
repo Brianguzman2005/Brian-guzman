@@ -1,0 +1,25 @@
+.armapc{
+    background-color:#001017;
+    max-width: 160px;
+}
+
+.li1 li a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    font-size: 900;
+    font-weight: 600;
+    color: aliceblue;
+    text-decoration: none;
+    transition: all 0.3;
+    list-style: none
+}
+
+.li1 li a:hover{
+    font-weight: bold ;
+}
+
+.armatupc{
+    text-align: center;
+    margin: auto;
+}
