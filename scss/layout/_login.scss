@@ -1,0 +1,49 @@
+.loga{
+    margin-top:100px;
+    .login-box{
+        width: 360px;
+        height: 300px;
+        margin:auto;
+        background: aliceblue;
+        border-radius: 3px;
+        .sign{
+            text-align: center;
+            padding-top:15px ;
+        }
+        .form-sign{
+            width:300px;
+            margin-left:20px;
+            label{
+                display: flex;
+                margin-top: 20px;
+                font-size: 18px;
+            }
+            input{
+                width:100%;
+                padding:7px;
+                border:none;
+                border:1px solid #001017;
+                border-radius:6px;
+                outline: none;
+            }
+            input[type="button"]{
+                width:320px;
+                height:35px;
+                margin-top:20px;
+                border:none;
+                background-color: #001017;
+                color: aliceblue;
+                font-weight: bold; 
+            }
+        }
+    }
+    .parra-3{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 127px;
+        a{
+        color: #001017;
+            }
+        }
+}

@@ -1,0 +1,19 @@
+header{
+    background: rgba(2,17,22,255);
+    .navbar-brand{
+        color: aliceblue;
+        font-weight: 500;
+        &:hover{
+            font-weight:bold;
+            color: rgb(223, 223, 223);
+        }
+    }
+    .nav-link{
+        color: aliceblue;
+        font-weight:500;
+        &:hover{
+            font-weight:bold;
+            color: rgb(223, 223, 223);
+        }
+    }
+}

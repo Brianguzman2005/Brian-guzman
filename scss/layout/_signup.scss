@@ -1,0 +1,53 @@
+.signa{
+    margin-top:20px;
+    .signup-box{
+        width:360px;
+        height: 620px;
+        margin: auto;
+        background-color: aliceblue;
+        border-radius: 3px;
+        .sign{
+            text-align: center;
+            padding-top:15px ;
+        }
+        .form-sign{
+            width:300px;
+            margin-left:20px;
+            label{
+                display: flex;
+                margin-top: 20px;
+                font-size: 18px;
+            }
+            input{
+                width:100%;
+                padding:7px;
+                border:none;
+                border:1px solid #001017;
+                border-radius:6px;
+                outline: none;
+            }
+            input[type="button"]{
+                width:320px;
+                height:35px;
+                margin-top:20px;
+                border:none;
+                background-color: #001017;
+                color: aliceblue;
+                font-weight: bold; 
+            }
+        }
+        .terms{
+            text-align: center;
+            padding: top 20px;
+            font-size: 15px;
+        }
+    }
+    .parra-2{
+        text-align: center;
+        font-size: 15px;
+        margin-top: 10px;
+        a{
+            color: #001017;
+        }
+    }
+}

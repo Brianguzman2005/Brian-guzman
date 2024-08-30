@@ -1,0 +1,334 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #d0d0d0;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+header {
+  background: rgb(2, 17, 22);
+}
+header .navbar-brand {
+  color: aliceblue;
+  font-weight: 500;
+}
+header .navbar-brand:hover {
+  font-weight: bold;
+  color: rgb(223, 223, 223);
+}
+header .nav-link {
+  color: aliceblue;
+  font-weight: 500;
+}
+header .nav-link:hover {
+  font-weight: bold;
+  color: rgb(223, 223, 223);
+}
+
+.footer {
+  list-style: none;
+  background-color: #021118;
+  padding: 80px 0;
+}
+.footer .footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer .footer-container .footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .footer-container .footer-row .footer-links {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer .footer-container .footer-row .footer-links h4 {
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid #001017;
+  padding-bottom: 10px;
+  display: inline-block;
+  color: #ddd;
+}
+.footer .footer-container .footer-row .footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+.footer .footer-container .footer-row .footer-links ul li a:hover {
+  padding-left: 6px;
+}
+.footer .footer-container .footer-row .footer-links .Social-link a {
+  display: inline-block;
+  min-height: 40px;
+  width: 40px;
+  margin: 0px 10px 10px 0px;
+  line-height: 40px;
+  border-radius: 5%;
+  transition: all 0.5s ease;
+  text-align: center;
+}
+.footer .footer-container .footer-row .footer-links .Social-link a:hover {
+  background-color: #3c5864;
+}
+
+.video-box {
+  width: 100%;
+}
+.video-box .banner {
+  width: 100%;
+}
+
+.armapc {
+  background-color: #001017;
+  max-width: 160px;
+  text-align: left;
+  margin: right;
+}
+.armapc .li1 li a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  font-size: 900;
+  font-weight: 600;
+  color: aliceblue;
+  text-decoration: none;
+  transition: all 0.3;
+  list-style: none;
+}
+.armapc .li1 li a:hover {
+  font-weight: bold;
+}
+
+.loga {
+  margin-top: 100px;
+}
+.loga .login-box {
+  width: 360px;
+  height: 300px;
+  margin: auto;
+  background: aliceblue;
+  border-radius: 3px;
+}
+.loga .login-box .sign {
+  text-align: center;
+  padding-top: 15px;
+}
+.loga .login-box .form-sign {
+  width: 300px;
+  margin-left: 20px;
+}
+.loga .login-box .form-sign label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.loga .login-box .form-sign input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid #001017;
+  border-radius: 6px;
+  outline: none;
+}
+.loga .login-box .form-sign input[type=button] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #001017;
+  color: aliceblue;
+  font-weight: bold;
+}
+.loga .parra-3 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 127px;
+}
+.loga .parra-3 a {
+  color: #001017;
+}
+
+@media (max-width: 991px) {
+  .Gallery__nuevos--ingresos {
+    column-count: 2;
+  }
+}
+@media (max-width: 650px) {
+  .Gallery__nuevos--ingresos {
+    column-count: 1;
+    padding: 20px;
+  }
+}
+.signa {
+  margin-top: 20px;
+}
+.signa .signup-box {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+.signa .signup-box .sign {
+  text-align: center;
+  padding-top: 15px;
+}
+.signa .signup-box .form-sign {
+  width: 300px;
+  margin-left: 20px;
+}
+.signa .signup-box .form-sign label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.signa .signup-box .form-sign input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid #001017;
+  border-radius: 6px;
+  outline: none;
+}
+.signa .signup-box .form-sign input[type=button] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #001017;
+  color: aliceblue;
+  font-weight: bold;
+}
+.signa .signup-box .terms {
+  text-align: center;
+  padding: top 20px;
+  font-size: 15px;
+}
+.signa .parra-2 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.signa .parra-2 a {
+  color: #001017;
+}
+
+.main-form {
+  background-color: transparent;
+  padding: 10px 0;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 6px;
+}
+.main-form .tittle-form {
+  text-align: center;
+  margin-top: none;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.main-form .input-form {
+  padding: 12px 20px;
+}
+.main-form .input-form .form-email, .main-form .input-form .form-text {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: 2px solid rgb(2, 17, 22);
+  background-color: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 0px 25 rgb(246, 255, 255);
+}
+.main-form .input-form .form-text {
+  min-width: 100%;
+  resize: vertical;
+  min-height: 100px;
+  max-height: 100px;
+}
+.main-form .input-form .form-button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: 2px solid rgb(2, 17, 22);
+  border-radius: 4px;
+  box-shadow: 0px 0px 25 rgb(246, 255, 255);
+  cursor: pointer;
+  z-index: 0;
+  position: relative;
+}
+.main-form .input-form .form-button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #d0d0d0;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+}
+.main-form .input-form .form-button::before {
+  content: "";
+  background: green;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 600%;
+  z-index: -1;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 4px;
+  filter: blur(4px);
+  opacity: 0;
+}
+.main-form .input-form .form-button:hover::before {
+  opacity: 1;
+}
+.main-form .input-form .form-button:active:after {
+  background: transparent;
+}
+.main-form .input-form .form-button:active {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.Gallery__nuevos--ingresos {
+  background: #ddd;
+  padding: 20px 8%;
+  column-count: 4;
+  gap: 10px;
+}
+.Gallery__nuevos--ingresos .product-box {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+.Gallery__nuevos--ingresos .product-box img {
+  width: 100%;
+  object-fit: cover;
+}
+.Gallery__nuevos--ingresos .product-box .product-tittle {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

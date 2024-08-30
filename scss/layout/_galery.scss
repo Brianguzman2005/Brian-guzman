@@ -1,0 +1,18 @@
+.Gallery__nuevos--ingresos{
+    @include gallery;
+    .product-box {
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 10px; 
+        break-inside: avoid;
+        
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .product-tittle{
+            font-size: 20px;
+            padding: 10px 0;
+        }
+    }
+}
