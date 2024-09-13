@@ -5,6 +5,11 @@ html, body {
   background-color: #d0d0d0;
 }
 
+h2 {
+  background-color: #ddd;
+  margin-bottom: 0px;
+}
+
 @keyframes glowing {
   0% {
     background-position: 0 0;
@@ -93,27 +98,6 @@ header .nav-link:hover {
   width: 100%;
 }
 
-.armapc {
-  background-color: #001017;
-  max-width: 160px;
-  text-align: left;
-  margin: right;
-}
-.armapc .li1 li a {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: block;
-  font-size: 900;
-  font-weight: 600;
-  color: aliceblue;
-  text-decoration: none;
-  transition: all 0.3;
-  list-style: none;
-}
-.armapc .li1 li a:hover {
-  font-weight: bold;
-}
-
 .loga {
   margin-top: 100px;
 }
@@ -121,7 +105,7 @@ header .nav-link:hover {
   width: 360px;
   height: 300px;
   margin: auto;
-  background: aliceblue;
+  background: #ddd;
   border-radius: 3px;
 }
 .loga .login-box .sign {
@@ -164,17 +148,6 @@ header .nav-link:hover {
   color: #001017;
 }
 
-@media (max-width: 991px) {
-  .Gallery__nuevos--ingresos {
-    column-count: 2;
-  }
-}
-@media (max-width: 650px) {
-  .Gallery__nuevos--ingresos {
-    column-count: 1;
-    padding: 20px;
-  }
-}
 .signa {
   margin-top: 20px;
 }
@@ -182,7 +155,7 @@ header .nav-link:hover {
   width: 360px;
   height: 620px;
   margin: auto;
-  background-color: aliceblue;
+  background-color: #ddd;
   border-radius: 3px;
 }
 .signa .signup-box .sign {
@@ -230,12 +203,14 @@ header .nav-link:hover {
 }
 
 .main-form {
-  background-color: transparent;
+  background-color: #ddd;
   padding: 10px 0;
   max-width: 600px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 6px;
+  border: 2px solid rgb(2, 17, 22);
 }
 .main-form .tittle-form {
   text-align: center;
@@ -254,6 +229,7 @@ header .nav-link:hover {
   background-color: transparent;
   border-radius: 4px;
   box-shadow: 0px 0px 25 rgb(246, 255, 255);
+  background-color: #f0f0f0;
 }
 .main-form .input-form .form-text {
   min-width: 100%;
@@ -310,25 +286,37 @@ header .nav-link:hover {
   font-weight: bold;
 }
 
-.Gallery__nuevos--ingresos {
+.gallery__nuevos--ingresos {
   background: #ddd;
   padding: 20px 8%;
   column-count: 4;
   gap: 10px;
 }
-.Gallery__nuevos--ingresos .product-box {
+.gallery__nuevos--ingresos .product-box {
   background: #fff;
   padding: 15px;
   margin-bottom: 10px;
   break-inside: avoid;
 }
-.Gallery__nuevos--ingresos .product-box img {
+.gallery__nuevos--ingresos .product-box img {
   width: 100%;
   object-fit: cover;
 }
-.Gallery__nuevos--ingresos .product-box .product-tittle {
+.gallery__nuevos--ingresos .product-box .product-tittle {
   font-size: 20px;
   padding: 10px 0;
+}
+
+@media (max-width: 991px) {
+  .gallery__nuevos--ingresos {
+    column-count: 2;
+  }
+}
+@media (max-width: 650px) {
+  .gallery__nuevos--ingresos {
+    column-count: 1;
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

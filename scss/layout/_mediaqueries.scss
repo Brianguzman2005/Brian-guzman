@@ -1,13 +1,13 @@
 @media (max-width:991px){
-    
-    .Gallery__nuevos--ingresos{
-        column-count: 2
+
+    .gallery__nuevos--ingresos{
+        column-count: 2;
     }
 }
 
 @media (max-width:650px){
     
-    .Gallery__nuevos--ingresos{
+    .gallery__nuevos--ingresos{
         column-count: 1;
         padding: 20px;
     }
